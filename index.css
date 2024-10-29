@@ -1,0 +1,26 @@
+/*basic styles*/
+:root{
+    --color-one: #0097e6;
+    --color-two: #33d9b2;
+    --color-three: #ff5252;
+    --color-four: #ffffff;
+    --color-five: #2c2c54;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0px;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: Inconsolata;
+    color: var(--color-five);
+}
+.container{
+    max-width: 1140px;
+    padding: 0 20;
+    margin: auto;
+}
+section{
+    padding: 96px 0;
+}

@@ -74,3 +74,50 @@ section{
         color: var(--color-two);
     }
 }
+
+/*Header*/
+.splash{
+    background-color: var(--color-one);
+    color: var(--color-four);
+    min-height: 500px;
+    display: flex;
+}
+.splash-inner{
+    margin: auto;
+    max-width: 70%;
+}
+.page-title{
+    margin: 0;
+    font-size: 72px;
+    word-spacing: -24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.page-subtitle{
+    margin: 24px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+.page-title span{
+    font-family:'Lucida Sans', cursive;
+}
+.btn{
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-color: var(--color-one);
+    color: var(--color-four);
+    transition: all 0.6s ease-in-out;
+}
+.btn:hover{
+    background-color: var(--color-two);
+}

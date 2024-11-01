@@ -206,3 +206,45 @@ section{
 .btn-five:hover{
     color: var(--color-one);
 }
+/*section Contact*/
+.contact{
+    background-color: var(--color-one);
+    color: var(--color-four);
+}
+.contact-wrapper{
+    display: flex;
+}
+.contact-form{
+    flex: 2 0 0;
+    padding-right: 100px;
+}
+.contact-info{
+    flex: 1 0 0;
+    bottom: 100%;
+    transform: translateY(-20%);
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 10px;
+    background-color: var(--color-one);
+    border-color: var(--color-four);
+    border-radius: 4px;
+}
+.contact-form textarea{
+    min-height: 150px;
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    color: var(--color-four);
+}
+.btn-six{
+    background-color: var(--color-one);
+    color: var(--color-four);
+    border-color: var(--color-four);
+}
+.contact-info h3{
+    margin-bottom: 8px;
+}
+.contact-info p{
+    margin: 0px;
+}

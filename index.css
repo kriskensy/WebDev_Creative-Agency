@@ -41,6 +41,7 @@ section{
     background-position: 100% 0;
     background-size: 300%;
     transition: var(--transition);
+    background-image: linear-gradient(90deg, var(--color-four) 50%, transparent 50%);
 }
 .btn:hover{
     background-color: var(--color-two);
@@ -127,9 +128,50 @@ section{
 .btn-one{
     border-color: var(--color-four);
     color: var(--color-four);
-    background-image: linear-gradient(90deg, var(--color-four) 50%, transparent 50%);
 }
 .btn-one:hover{
     color: var(--color-five);
 }
 /*section our services*/
+.section-title{
+    font-size: 72px;
+    margin: 0 0 72px 0;
+}
+.section-subtitle{
+    font-size: 48px;
+}
+.services-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-box{
+    flex: 0 0 33.333%;
+    position: relative;
+}
+.service-number{
+    color: var(--color-two);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    font-size: 144px;
+    opacity: 0.2;
+    font-weight: bold;
+    margin-top: 0;
+    transform: translateY(70%);
+}
+.service-box p:first-of-type{
+    font-weight: bold;
+}
+.btn-two{
+    background-color: var(--color-four);
+    color: var(--color-two);
+}
+.btn-three{
+    background-color: var(--color-four);
+    color: var(--color-three);
+}
+.btn-four{
+    background-color: var(--color-four);
+    color: var(--color-one);
+}

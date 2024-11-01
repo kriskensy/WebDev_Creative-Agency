@@ -248,3 +248,28 @@ section{
 .contact-info p{
     margin: 0px;
 }
+/*footer*/
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0;
+    list-style: none;
+}
+.social-links li{
+    padding: 20px;
+    font-size: 0;
+}
+.fab{
+    font-size: 30px;
+    background-color: var(--color-three);
+    color: var(--color-four);
+    padding: 15px;
+    border-radius: 50%; /*change square to circle*/
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition) ease;
+}
+.fab:hover{
+    transform: scale(1.2);
+}
